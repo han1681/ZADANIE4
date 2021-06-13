@@ -1,0 +1,79 @@
+
+
+
+h1 {
+    padding: 0 1em 0.1em;
+}
+
+.Wed-form {
+    margin: 0 auto;
+    width: 600px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background: linear-gradient( 284.04deg, #ff6a00 23%, #7d7b20 81.77%, #2124d5 95.96%);
+}
+
+
+.form_privat {
+    width: 350px;
+    background: linear-gradient( 284.04deg, #2124d5 0%, #7d7b20 81.77%, #2124d5 98.96%);
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+input {
+    margin-left: 2em;
+}
+
+select {
+    margin-left: 2em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+
+}
+label.required:after {
+    color: red;
+    content: "*";
+}
+
+label.required_act:after {
+    color: red;
+    content: "*";
+}
+
+label.required_act{
+    display: inline;
+}
+
+label.frend_act{
+    display: inline;
+}
+
+p.frend_act{
+    display: inline;
+}
+
+.li-1{
+    font-size: 1.5em;
+    color: #bcdede;
+}
+
+.screen {
+    margin-left: 9em;
+}
